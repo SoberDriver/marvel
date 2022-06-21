@@ -1,0 +1,58 @@
+@import '../../style/variables.scss';
+
+.random-char {
+  display: flex;
+  box-shadow:5px 5px 20px rgba(0, 0, 0, 0.25);
+  margin: 50px 0;
+  &-body {
+    width: 550px;
+    height: 250px;
+    padding: 35px;
+    display: flex
+  }
+  &-img {
+    height: 180px;
+    width: 180px;
+  }
+  &-try {
+    width: 550px;
+    height: 250px;
+    background-color: $dark;
+  }
+  &-buttons {
+    display: flex;
+    gap: 30px;
+  }
+  &-info {
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.random-char-name {
+  font-size: 22px;
+  font-weight: 700;
+}
+.random-char-description {
+  font-size: 14px;
+}
+
+.random-char-try {
+  position: relative;
+  display: flex;
+  &-disclaimer {
+    padding: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &-img {
+    position: absolute;
+    right: -35px;
+    bottom: 15px;
+  }
+}

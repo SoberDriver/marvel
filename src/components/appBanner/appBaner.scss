@@ -1,0 +1,22 @@
+@import '../../style/variables.scss';
+
+.app-banner {
+  width: 1100px;
+  height: 100px;
+  background-color: $dark;
+  margin: 50px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.avengers-logo {
+  position: absolute;
+  right: 25px;
+}
+.avengers {
+  margin-left: 45px;
+}
+h2 {
+  margin-left: 80px;
+  color: white;
+}

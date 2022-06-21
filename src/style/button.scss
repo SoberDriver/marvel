@@ -1,0 +1,30 @@
+
+
+.button {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px 0;
+  &-main {
+    background-color:$main-color;
+  }
+  &-secondary {
+    background-color:$gray;
+  }
+  &-long {
+    width: 170px;
+    margin: 45px auto;
+  }
+}
+.inner {
+  background-color:inherit;
+  color:white;
+  font-size: 14px;
+  font-weight: 400;
+  
+  
+}
